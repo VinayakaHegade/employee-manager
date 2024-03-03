@@ -24,6 +24,10 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: transparent linear-gradient(180deg, #000000 0%, #000e09 100%) 0%
+    0% no-repeat padding-box;
+  mix-blend-mode: normal;
 }
 /*
   5. Improve media defaults
@@ -68,3 +72,95 @@ h6 {
 html {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
+.Mulish-Regular-15px {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #36A546;
+  letter-spacing: 1.05px;
+  line-height: 20px;
+}
+
+.Mulish-Bold-16px {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF8C;
+  letter-spacing: 1.12px;
+  line-height: 21px;
+}
+
+.Mulish-Bold-14px {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+.Mulish-Regular-16px {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #36A546CC;
+  letter-spacing: 1.12px;
+  line-height: 21px;
+}
+
+.Mulish-Regular-12px {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+}
+
+.SourceSansPro-Regular-18px {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #36A546;
+  letter-spacing: 1.26px;
+  line-height: 25px;
+}
+
+.Mulish-Regular-14px {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #36A546;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+.SourceSansPro-Bold-18px {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFFB3;
+  letter-spacing: 0.8px;
+  line-height: 25px;
+}
+
+.Mulish-Bold-14px-B77420 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #B77420;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+.Mulish-Bold-14px-36A546 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #36A546;
+  letter-spacing: 0.98px;
+  line-height: 19px;
+}
+
+
