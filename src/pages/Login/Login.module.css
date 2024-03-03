@@ -10,3 +10,16 @@
   text-align: center;
   margin-top: 17px;
 }
+
+.loginFormSection {
+  margin: 49px auto 0px;
+  max-width: 238px;
+}
+
+.forgotPasword {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 26px;
+  text-decoration: none;
+}

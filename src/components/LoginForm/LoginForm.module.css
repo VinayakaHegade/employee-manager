@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  min-height: 42px;
+  max-width: 238px;
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  mix-blend-mode: normal;
+  padding: 12px 16px;
+  border-radius: 28px;
+  border: none;
+}
+
+.submitButton {
+  min-height: 42px;
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8cff0026;
+  border-radius: 28px;
+  padding: 9px 0px 13px;
+  margin-top: 22px;
+  cursor: pointer;
+}
