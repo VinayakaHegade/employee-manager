@@ -11,8 +11,8 @@ const LoginForm = () => {
   const { setIsLoggedIn } = useContext(AuthContext);
   const navigate = useNavigate();
 
-  const guestEmail = "guest@example.com";
-  const guestPassword = "guest123";
+  const guestEmail = "guest@gmail.com";
+  const guestPassword = "guest@321";
 
   function handleChange(event) {
     setForm({
@@ -29,7 +29,7 @@ const LoginForm = () => {
       navigate("/");
     } else {
       alert(
-        "Wrong credentials! You can use the following guest credentials: \nEmail: guest@example.com \nPassword: guest123"
+        "Wrong credentials! You can use the following guest credentials: \nEmail: guest@gmail.com \nPassword: guest@321"
       );
     }
   }

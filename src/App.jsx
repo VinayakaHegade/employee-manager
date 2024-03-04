@@ -2,11 +2,12 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css";
 import Login from "./pages/Login/Login";
 import Home from "./pages/Home/Home";
-import { AuthContext } from "./providers/AuthContext";
-import { useContext } from "react";
+// import { AuthContext } from "./providers/AuthContext";
+// import { useContext } from "react";
 
 function App() {
-  const { isLoggedIn } = useContext(AuthContext);
+  // const { isLoggedIn } = useContext(AuthContext);
+  const isLoggedIn = true;
 
   return (
     <div className={styles.app}>
